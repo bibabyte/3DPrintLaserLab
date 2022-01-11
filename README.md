@@ -1,1 +1,1 @@
-# 3DPrintLaserLab
+# laser-lab
