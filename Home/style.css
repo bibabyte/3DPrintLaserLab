@@ -1,0 +1,120 @@
+body {
+	margin: 0;
+	background: #faf4f2;
+	font-weight: 200;
+	font-family: helvetica, sans-serif;
+	color: #373a36;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.picture {
+	margin: 2%;
+	background: white;
+}
+
+#title {
+	font-family: times-new-roman, serif;
+	color: #373a36;
+	font-size: 2em;
+}
+
+h1 {
+	/*color: #373a36;*/
+	font-family: times-new-roman, serif;
+	font-size: 3em;
+}
+
+h3 {
+	text-align: center;
+	color: #373a36;
+}
+
+#whats-our-deal {
+	padding: 20px;
+	text-align: center;
+}
+
+#navigation {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+	margin: 0 4em 2em;
+	flex-wrap: wrap;
+}
+
+p {
+	text-align: center;
+	margin: 0 50px;
+}
+
+#heading {
+	display: flex;
+	background: #f8855f;
+	flex-basis: 100%;
+	justify-content: center;
+	padding: 40px;
+
+}
+
+#names {
+	display: flex;
+	justify-content: space-around;
+}
+
+#jos {
+	text-align: left;
+	padding: 1em;
+}
+
+#biba{
+	text-align: right;
+	padding: 1em;
+}
+
+#about-us {
+	background-color: #f8dfd7;
+	background-image: url(images/aboutUs.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0 8%;
+	flex-basis: 100%;
+	justify-content: center;
+	text-align: left;
+	padding: 40px;
+	position: relative;
+}
+
+
+.button {
+	background-color: #e7553b; /*pink/red*/
+	color: white;
+	text-align: center;
+	transition-duration: 0.4s;
+	margin: 20px;
+	flex-basis: 25%;
+	border-radius: 10px;
+}
+
+.button:hover {
+	background-color: #f1ac47;
+}
+
+.button h3 {
+	font-size: 2em;
+	padding-top: 1em;
+	margin: 0;
+	text-align: center;
+}
+
+.button p {
+	font-family: times-new-roman, serif;
+	font-size: 1.5em;
+	padding: .25em 1em 1em;
+	margin: 0;
+	text-align: left;
+}
+
