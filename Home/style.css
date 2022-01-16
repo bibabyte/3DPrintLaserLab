@@ -17,7 +17,7 @@ body {
 
 #title {
 	font-family: times-new-roman, serif;
-	color: #373a36;
+	color: #ff5f2c/*#e47047*//*#373a36*/;
 	font-size: 2em;
 }
 
@@ -53,7 +53,7 @@ p {
 
 #heading {
 	display: flex;
-	background: #f8855f;
+	background: #ff8a52/*#f8855f*/;
 	flex-basis: 100%;
 	justify-content: center;
 	padding: 40px;
@@ -90,7 +90,7 @@ p {
 
 
 .button {
-	background-color: #e7553b; /*pink/red*/
+	background-color: #a4bcc5; /*dark blue/green #e7553b; /*pink/red*/
 	color: white;
 	text-align: center;
 	transition-duration: 0.4s;
@@ -100,7 +100,7 @@ p {
 }
 
 .button:hover {
-	background-color: #f1ac47;
+	background-color: #80a6b4/*#f1ac47*/;
 }
 
 .button h3 {
